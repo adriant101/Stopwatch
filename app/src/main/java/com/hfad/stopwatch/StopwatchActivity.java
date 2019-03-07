@@ -32,6 +32,7 @@ public class StopwatchActivity extends Activity {
         wasRunning = running;
         running = false;
     }
+
     @Override
     protected void onResume() {
         super.onResume();
